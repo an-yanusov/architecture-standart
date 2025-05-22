@@ -1,56 +1,135 @@
 <mxfile host="65bd71144e">
     <diagram id="jL84tDGFmnewbZcciiBI" name="Страница — 1">
-        <mxGraphModel dx="786" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="972" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="13" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;АБС&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="230" y="210" width="360" height="280" as="geometry"/>
+                <mxCell id="19" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="20" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Телеком-оператор&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-                    <mxGeometry x="331" y="280" width="180" height="70" as="geometry"/>
+                <mxCell id="34" value="Передача заявки" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="19">
+                    <mxGeometry x="-0.08" y="4" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Управление обслуживанием в сети отделений&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="210" width="180" height="70" as="geometry"/>
+                <mxCell id="39" style="edgeStyle=none;html=1;" edge="1" parent="1" source="20" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Управление IT&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-                    <mxGeometry x="50" y="280" width="180" height="70" as="geometry"/>
+                <mxCell id="20" value="&lt;strong style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: left; white-space-collapse: preserve-breaks;&quot;&gt;Система партнёрского кол-центра&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="500" width="180" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Управление обслуживанием депозитных продуктов&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-                    <mxGeometry x="50" y="350" width="180" height="70" as="geometry"/>
+                <mxCell id="21" value="&lt;strong style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: left; white-space-collapse: preserve-breaks;&quot;&gt;Телеком-оператор&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="1080" width="180" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Кол-центр банка «Стандарт»&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-                    <mxGeometry x="50" y="490" width="180" height="70" as="geometry"/>
+                <mxCell id="22" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Отправка СМС-уведомления об открытии депозита&lt;/span&gt;" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="23" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Партнёрский кол-центр&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-                    <mxGeometry x="50" y="560" width="180" height="70" as="geometry"/>
+                <mxCell id="23" value="&lt;strong style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: left; white-space-collapse: preserve-breaks;&quot;&gt;СМС-шлюз телеком-оператора&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="970" width="180" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Команда цифровой трансформации розничного бизнеса&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-                    <mxGeometry x="50" y="630" width="180" height="70" as="geometry"/>
+                <mxCell id="24" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="28" source="32">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="452" y="970" as="sourcePoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Управление обслуживанием кредитных продуктов&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-                    <mxGeometry x="50" y="420" width="180" height="70" as="geometry"/>
+                <mxCell id="46" value="Отправка заявки &lt;br&gt;на открытие депозита" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="24">
+                    <mxGeometry x="-0.1714" y="4" relative="1" as="geometry">
+                        <mxPoint x="12" y="-11" as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="10" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Продажи и маркетинг&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="230" y="140" width="180" height="70" as="geometry"/>
+                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Поддержка операционных процессов&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="410" y="140" width="180" height="70" as="geometry"/>
+                <mxCell id="35" value="Оформление заявки на депозит для обработки бэк-офисом" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="25">
+                    <mxGeometry x="-0.0286" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Система колл-центра&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-                    <mxGeometry x="230" y="490" width="180" height="70" as="geometry"/>
+                <mxCell id="26" value="&lt;div style=&quot;&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: left; white-space-collapse: preserve-breaks;&quot;&gt;Система кол-центра&lt;/strong&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=default;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="670" width="180" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Система партнёрского колл-центра&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-                    <mxGeometry x="230" y="560" width="180" height="70" as="geometry"/>
+                <mxCell id="27" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="28" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;СМС-шлюз телеком-оператора&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-                    <mxGeometry x="330" y="330" width="185" height="20" as="geometry"/>
+                <mxCell id="37" value="Отправка СМС-уведомления об открытии депозита" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="27">
+                    <mxGeometry x="-0.3778" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="18" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Сайт&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-                    <mxGeometry x="230" y="290" width="90" height="50" as="geometry"/>
+                <mxCell id="28" value="&lt;div style=&quot;&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: left; white-space-collapse: preserve-breaks;&quot;&gt;Автоматизированная банковская система (АБС)&lt;/strong&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=default;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="810" width="220" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="&lt;span style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Интернет-банк&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-                    <mxGeometry x="410" y="360" width="180" height="80" as="geometry"/>
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="30" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Передача заявки" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="29">
+                    <mxGeometry x="-0.2588" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="&lt;strong style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: left; white-space-collapse: preserve-breaks;&quot;&gt;Сайт&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="670" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Отправить заявку &lt;br&gt;на депозит" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="31" target="30">
+                    <mxGeometry x="0.5001" y="15" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="240" y="705"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="31" target="32">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="240" y="845"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="Открыть депозит" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="42">
+                    <mxGeometry x="0.6616" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="505" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;strong style=&quot;box-sizing: inherit; color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: left; white-space-collapse: preserve-breaks;&quot;&gt;Интернет-банк&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="810" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="26" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="21" target="31">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="100" y="1115"/>
+                            <mxPoint x="90" y="525"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="СМС-уведомление" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="43">
+                    <mxGeometry x="-0.5176" y="4" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=none;html=1;" edge="1" parent="1" source="47" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="Обработка заявки&amp;nbsp;&lt;br&gt;на открытие&lt;br&gt;депозита" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="48">
+                    <mxGeometry x="0.2368" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1005" y="845" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="Сотрудник бэк-офиса" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="815" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Комментарий&lt;/h1&gt;&lt;p&gt;Вообще, судя по текущему описанию, Сайт и Интернет-Банк будто пустышки, так как не взаимодействуют с системой АБС&lt;br&gt;&lt;br&gt;Не отобразил сотрудников фронт-офиса, так как они по сути как кол-центр, только в банке)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="500" width="230" height="220" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
