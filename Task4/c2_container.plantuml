@@ -1,0 +1,59 @@
+@startuml
+title DepositBankMVP Container Diagram
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+LAYOUT_WITH_LEGEND()
+
+Person(customer, "Клиент", "Пользователь публичного сайта и интернет-банка")
+Person(manager, "Менеджер бэк-офиса", "Обрабатывает заявки на депозит")
+Person(callcenter, "Сотрудник кол-центра", "Верифицирует и консультирует о заявках новых клиентов")
+Person(ext_callcenter, "Сотрудник кол-центра партнёра", "Консультирует новых клиентов об условиях депозита")
+
+System_Boundary(CRM, "CRM-система для обработки заявок") {
+    Container(crmApi, "CRM API", "Java", "Основная точка входа для заявок")
+    Container(applications, "Управление заявками", "Java", "Регистрация и изменение статуса заявок на депозиты")
+    Container(notify, "Сервис SMS-уведомлений", "Java", "Отправка уведомлений клиенту")
+    Container(callcenterModule, "Модуль кол-центра", "Web", "Кол-центр: просмотр и верификация заявок, обновление статусов")
+}
+System_Ext(EXT_CRM, "CRM-система для консультаций от кол-центра партнёра")
+
+
+
+System_Boundary(Deposit, "Депозит-система") {
+    Container(s3_deposit, "Хранилище файлов с актуальными ставками")
+    Container(ms_deposit, "Сервис для получения актуальных ставок и генерации файлов")
+}
+
+System_Boundary(ABS, "АБС") {
+    Container(absApp, "Модуль Депозитов", "Legacy", "Обработка (открытие/изменение) депозитов")
+    Container(absNotify, "ABS-нотификации", "Legacy", "Генерация СМС при изменении статуса депозита")
+}
+System_Ext(sms, "СМС-шлюз", "Внешний SMS-провайдер")
+
+' --- Внутрисистемные каналы
+Rel(customer, web, "Подаёт заявку на депозит")
+Rel(customer, app, "Оформляет депозит, подписывает СМС")
+
+Rel(web, crmApi, "HTTP(S)/REST: Создание заявки")
+Rel(app, crmApi, "HTTP(S)/REST: Создание заявки")
+
+Rel(crmApi, applications, "CRUD заявок")
+Rel(applications, callcenterModule, "Просмотр заявок для верификации")
+Rel(callcenter, callcenterModule, "Проверяет заявку, обновляет статус")
+Rel(callcenterModule, applications, "Обновляет статусы заявок")
+Rel(applications, notify, "Тригерит уведомления клиенту")
+Rel(notify, sms, "HTTP(S)/SMPP: Отправка СМС клиенту")
+Rel(applications, absApp, "Передаёт заявку в АБС для открытия депозита")
+Rel(absApp, manager, "Обработка заявки")
+Rel(absApp, absNotify, "Генерирует событие для уведомления клиента")
+Rel(absNotify, sms, "Отправка СМС клиенту")
+
+Rel(customer, ext_callcenter, "Звонок для консультации об условиях депозита")
+Rel(ext_callcenter, EXT_CRM, "Получение данных для консультации")
+Rel(EXT_CRM, ms_deposit, "Получение ссылку на актуальный файла для консультации (в фоне по CRON)")
+Rel(EXT_CRM, s3_deposit, "Получение актуального файла для консультации (в фоне по CRON)")
+Rel(ms_deposit, s3_deposit, "Сохранение файла с актуальными условиями о депозите")
+Rel(ms_deposit, absApp, "Обращение в модуль депозитов за актуальной ставкой на данный момент")
+@enduml

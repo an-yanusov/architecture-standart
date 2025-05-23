@@ -1,0 +1,35 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Context.puml
+LAYOUT_WITH_LEGEND()
+
+title DepositBankMVP
+
+Person(customer, "Customer", "Клиент банка")
+Person(manager, "Manager", "Менеджер бэк-офиса")
+Person(callcenter, "CallCenter", "Сотрудник кол-центра")
+System(web, "Сайт", "Сайт банка")
+System(app, "Интернет-банк", "Приложение интернет-банка")
+
+System(crm, "CRM", "CRM система банка")
+System(deposit, "Deposit", "Система депозитов банка")
+
+System(abs, "АБС", "Автоматизированная банковская система")
+
+System_Ext(sms, "СМС-шлюз", "Телеком-провайдер для отправки СМС")
+
+Rel(customer, web, "Оставляет заявку на депозит")
+Rel(customer, app, "Оставляет заявку на депозит")
+
+Rel(web,crm,"Заявка на депозит")
+Rel(app,crm,"Заявка на депозит")
+
+Rel(callcenter, crm, "Верификация заявки и передача в бэк-офис")
+Rel(crm, abs, "Передача заявки для обработки в бэк-офис")
+Rel(manager, abs, "Обслуживание заявки на депозит")
+Rel(crm, sms, "СМС-уведомления для клиента")
+Rel(abs, sms, "СМС-уведомления для клиента")
+
+Rel(customer, callcenter, "Звонок для консультации о депозитах")
+Rel(crm, deposit, "Получение данных об условиях депозита")
+Rel(deposit, abs, "Получение данных о текущих ставках")
+@enduml 
